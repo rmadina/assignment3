@@ -1,0 +1,58 @@
+.flashcards-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flashcards-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.flashcards-list {
+  margin-top: 20px;
+}
+
+/* Styling for form elements */
+.input-text,
+.select-box {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-text {
+  flex-grow: 1;
+}
+
+.select-box {
+  min-width: 150px;
+}
+
+/* Button styles */
+.button {
+  padding: 10px 15px;
+  background-color: #0056b3;
+  /* Adjust color as needed */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #004494;
+  /* Darker shade for hover state */
+}
+
+/* Utility classes for spacing and layout */
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
