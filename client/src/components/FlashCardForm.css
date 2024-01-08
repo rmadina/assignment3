@@ -1,0 +1,45 @@
+/* client/src/components/FlashCardForm.css */
+
+.flashcard-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard-form .form-group {
+    margin-bottom: 15px;
+}
+
+.flashcard-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.flashcard-form .form-group input,
+.flashcard-form .form-group textarea,
+.flashcard-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.flashcard-form button.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.flashcard-form button.submit-btn:hover {
+    background-color: #004494;
+}
