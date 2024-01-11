@@ -1,7 +1,74 @@
-.home-page {
+.homepage {
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
 }
 
-.home-page h1 {
-    color: #007bff;
+.hero {
+    /* Replace with your image path */
+    background-size: cover;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    background-color: #004d40;
+}
+
+.hero button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-me img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.projects-showcase .project {
+    border: 20px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 20px;
+
+}
+
+.projects-showcase:hover{
+    background-color: #26b099;
+    border-radius: 20px;
+
+}
+
+.about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+    /* Adjust the path if necessary */
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em;
 }
